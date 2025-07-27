@@ -1,7 +1,8 @@
+#インポートエリア
 import pygame
 import sys
 import random
-
+import streamlit
 def main():
     pygame.init()
     pygame.display.set_caption("弾を打つ練習")
