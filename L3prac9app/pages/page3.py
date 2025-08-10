@@ -6,5 +6,5 @@ st.title("🎉 複数回風船を飛ばす！")
 
 if st.button("🎈 連続で風船を飛ばす"):
     for i in range(3):
-        st.balloons()
+        st.toast()
         time.sleep(1)
