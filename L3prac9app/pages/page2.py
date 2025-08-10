@@ -1,4 +1,5 @@
 import streamlit as st
+import time
 st.title ("ユーザー情報表示ページ")
 # session_stateからデータを取得
 if 'user_name' in st.session_state.user_name:
@@ -9,3 +10,6 @@ if 'user_name' in st.session_state.user_name:
 else:
     st.error("ユーザー名が設定されていません")
     st.write("メインページで名前を入力してください")
+    for i in range(3):
+        st.balloons()
+        time.sleep(1)
