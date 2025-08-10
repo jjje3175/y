@@ -15,7 +15,7 @@ if x <=2:
     for i in range(3):
         st.balloons()
         time.sleep(1)
-elif x ==1:
+else:
     st.error("ユーザー名が設定されていません")
     st.write("メインページで名前を入力してください")
     for i in range(3):
