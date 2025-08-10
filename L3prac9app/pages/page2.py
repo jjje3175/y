@@ -10,6 +10,7 @@ if 'user_name' in st.session_state.user_name:
     # 追加の表示
     st.balloons() #祝福のアニメーション
 if x <2:
+    st. success (f"こんにちは、{st.session_state.user_name}さん！")
     for i in range(3):
         st.balloons()
         time.sleep(1)
